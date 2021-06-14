@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 
-export const Greeter = () => {
+export const Greeter = (props) => {
   return (
     <h1>
-      Hello Mateusz!
+      Hello {props.name}!
     </h1>
   )
 }

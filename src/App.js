@@ -5,9 +5,15 @@ import Greeter from './Greeter'
 export const App = () => {
   return (
     <div>
-      <Greeter />
-      <Greeter />
-      <Greeter />
+      <Greeter
+        name={'Ola'}
+      />
+      <Greeter
+        name={'Ala'}
+      />
+      <Greeter
+        name={'Ela'}
+      />
     </div>
   )
 }
