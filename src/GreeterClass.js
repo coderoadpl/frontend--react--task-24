@@ -3,9 +3,11 @@ import React from 'react'
 
 export class GreeterClass extends React.Component {
   render () {
+    const { name } = this.props
+
     return (
       <h1>
-        Hello {this.props.name} (class)!
+        Hello {name} (class)!
       </h1>
     )
   }

@@ -2,9 +2,11 @@
 import React from 'react'
 
 export const Greeter = (props) => {
+  const { name } = props
+
   return (
     <h1>
-      Hello {props.name}!
+      Hello {name}!
     </h1>
   )
 }
