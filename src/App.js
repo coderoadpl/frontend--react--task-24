@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Greeter from './Greeter'
+
 export const App = () => {
   return (
     <div>
-      CodeRoad APP
+      <Greeter />
+      <Greeter />
+      <Greeter />
     </div>
   )
 }
