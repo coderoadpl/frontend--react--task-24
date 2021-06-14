@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Greeter from './Greeter'
+import GreeterClass from './GreeterClass'
 
 export const App = () => {
   return (
@@ -12,6 +13,15 @@ export const App = () => {
         name={'Ala'}
       />
       <Greeter
+        name={'Ela'}
+      />
+      <GreeterClass
+        name={'Ola'}
+      />
+      <GreeterClass
+        name={'Ala'}
+      />
+      <GreeterClass
         name={'Ela'}
       />
     </div>
